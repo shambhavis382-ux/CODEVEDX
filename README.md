@@ -1,10 +1,17 @@
-CODEVEDX Internship — Project 1
-
-Data Analysis with Python
+Project 2: Exploratory Data Analysis (EDA) using Python
 
 Project Overview
 
-This project analyzes a sample sales dataset using Python. The objective is to inspect data quality, calculate sales revenue, identify product and category performance, and communicate findings through visualizations.
+This project explores a synthetic sales dataset using Python to identify patterns in product sales, revenue, categories, and regions.
+
+Objectives
+
+- Inspect dataset structure and data types.
+- Check missing values and duplicate records.
+- Analyze product-wise and category-wise revenue.
+- Visualize numerical relationships using a correlation heatmap.
+- Detect potential outliers using the Interquartile Range (IQR) method.
+- Summarize findings from the dataset.
 
 Tools and Technologies
 
@@ -13,62 +20,51 @@ Tools and Technologies
 - NumPy
 - Matplotlib
 - Seaborn
+- Jupyter Notebook / VS Code
 
-Dataset Description
+Dataset
 
-The original dataset, "sales_data.csv", contains 10 records and 6 columns:
+File: "sales_data.csv"
 
-Column| Description
-"order_id"| Unique order identifier
-"product"| Product name
-"category"| Product category
-"units_sold"| Quantity sold
-"unit_price"| Price per unit
-"region"| Sales region
+Source: Synthetic sample dataset used for educational analysis.
 
-Project Workflow
+Methodology
 
-1. Load the sales dataset using Pandas.
-2. Inspect the dataset structure and data types.
-3. Check for missing values and duplicate records.
-4. Generate descriptive statistics.
-5. Calculate revenue using units sold multiplied by unit price.
-6. Analyze revenue by product and category.
-7. Visualize revenue using horizontal bar charts.
-8. Validate the data and export the cleaned dataset.
+1. Load and inspect the dataset.
+2. Examine missing values and duplicates.
+3. Calculate revenue from units sold and unit price.
+4. Perform product-wise, category-wise, and region-wise analysis.
+5. Create bar charts and a correlation heatmap.
+6. Detect potential outliers using the IQR method.
+7. Summarize the results.
 
 Key Findings
 
-- Total sales revenue: ₹21,660.
-- Highest revenue-generating product: Keyboard, with ₹7,495.
-- Second-highest revenue-generating product: Mouse, with ₹6,392.
-- Lowest revenue-generating product: Pen Set, with ₹960.
-- The initial dataset contains no missing values or completely duplicated rows.
+- Total records: [Fill in from notebook output]
+- Total missing values: [Fill in]
+- Duplicate rows: [Fill in]
+- Total revenue: ₹[Fill in]
+- Highest-revenue product: [Fill in]
+- Highest-revenue category: [Fill in]
 
-Project Outputs
+Project Files
 
-The "outputs" directory is intended to contain:
-
-- "cleaned_sales_data.csv"
-- "revenue_by_product.png"
-- "revenue_by_category.png"
+- "project_2_eda.ipynb" — analysis and visualizations.
+- "sales_data.csv" — input dataset.
+- "outputs/" — generated charts.
 
 How to Run
 
-1. Open the project folder in Visual Studio Code.
-2. Open "project_1_data_analysis.ipynb".
-3. Select the appropriate Python kernel.
-4. Install the required dependencies from "requirements.txt", if available.
-5. Run the notebook cells in order.
+1. Install the required libraries using "pip install pandas numpy matplotlib seaborn ipykernel".
+2. Open "project_2_eda.ipynb" in VS Code or Jupyter Notebook.
+3. Ensure the dataset path is correct.
+4. Run all notebook cells from top to bottom.
 
 Conclusion
 
-This project demonstrates a basic data analysis workflow, including data inspection, validation, revenue calculations, visualization, and export. The analysis provides a simple overview of product performance and sales revenue.
-
-Note: This project uses a small sample dataset for demonstration. Its findings should not be treated as representative of a real business without additional data.
+This project applies exploratory data analysis techniques to a synthetic sales dataset. Final conclusions should be based on the computed results recorded in the notebook.
 
 Author
-
-Shambhavi Singh 
-Data Analysis with Python Intern
+Shambhavi Singh
+Data Analysis using Python Intern
 CODEVEDX
